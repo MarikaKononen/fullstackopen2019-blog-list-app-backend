@@ -2,8 +2,8 @@ post http://localhost:3003/api/blogs
 Content-Type: application/json
 
 {
-  "title": "Ihanat hevoset",
-  "author": "Heppatyttö",
-  "url": "https://hepat.fi",
-  "likes": 23
+  "title": "Code for My Life",
+  "author": "Marika Könönen",
+  "url": "https://codeformylife.com",
+  "likes": 3
 }
