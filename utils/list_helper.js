@@ -12,7 +12,17 @@ const totalLikes = (blogs) => {
   return sum
 }
 
+const favoriteBlog = (blogs) => {
+  // eslint-disable-next-line no-unused-vars
+  const max = blogs.reduce(function(prev, current) {
+    return (prev.likes > current.likes) ? prev : current
+  })
+  console.log('max blog object', max)
+  return max
+}
+
 module.exports = {
   dummy,
-  totalLikes
+  totalLikes,
+  favoriteBlog
 }
